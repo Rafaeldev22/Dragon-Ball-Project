@@ -123,12 +123,16 @@ p {
     body{
         display: block;
         margin-top: -4%;
-        background-position-y: -21px;
+        background-position-y: -76px;
 
     }
 
+    .imgs{
+        margin-top: -5%;
+    }
+
     .barra{
-        display:
+        display:none;
     }
 
     p{
@@ -136,7 +140,7 @@ p {
         margin-top: 0;
         margin-left: -75vh;
         font-size: 10px;
-        color: rgba(128, 128, 128, 0.864);
+        color: rgba(255, 255, 255, 0.864);
     }
 
 }
