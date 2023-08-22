@@ -110,10 +110,18 @@ p {
   z-index: 15;
 }
 
+.titulo{
+    display: none;
+}
+
 @media screen and (min-width: 320px) and (max-width: 1024px) {
 
     body{
         display: none;
+    }
+
+    .titulo{
+        display: block;
     }
 
 }
@@ -141,6 +149,10 @@ p {
         margin-left: -75vh;
         font-size: 10px;
         color: rgba(255, 255, 255, 0.864);
+    }
+
+    .titulo{
+        display: none;
     }
 
 }
