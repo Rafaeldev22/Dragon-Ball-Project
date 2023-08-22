@@ -122,6 +122,8 @@ p {
 
     body{
         display: block;
+        margin-top: -4%;
+        background-position-y: -21px;
 
     }
 
