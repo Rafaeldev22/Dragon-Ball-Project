@@ -7,6 +7,8 @@
 body {
   background: url(/img/back.png) no-repeat;
   background-size: cover;
+  backdrop-filter: blur(3px);
+  opacity: 1;
   overflow: hidden;
 }
 
@@ -14,9 +16,14 @@ body {
   position: absolute;
 }
 
+/* .imgs{
+    margin-top: 70vh;
+} */
+
 .goku {
   width: 30%;
   margin-top: 13%;
+  left: 0.3%;
   filter: grayscale(1);
   transition: all 0.2s ease-in-out;
   cursor: pointer;
@@ -59,7 +66,7 @@ body {
 .vejeta {
   filter: grayscale(1);
   width: 29.7%;
-  margin-left: 70.3%;
+  margin-left: 70.5%;
   margin-top: 15.15%;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
@@ -101,58 +108,82 @@ button {
 }
 
 p {
-  position: absolute;
+  position: relative;
+  display: flex;
+  justify-content: center;
   font-family: sans-serif;
   font-weight: 600;
-  top: 97%;
-  left: 45%;
   color: #000;
+  margin-top: 96vh;
   z-index: 15;
 }
 
-.titulo{
-    display: none;
+.titulo {
+  display: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1024px) {
+@media (max-width: 1115px) {
+  body {
+    /* background-position-y: 50px ; */
+  }
 
-    body{
-        display: none;
-    }
+  .imgs {
+    margin-top: 50px;
+  }
 
-    .titulo{
-        display: block;
-    }
-
+  .barra {
+    /* border: 2px solid red; */
+    top: 96%;
+    height: 35px;
+    display: flex;
+    position: fixed;
+  }
 }
 
-@media (orientation: landscape) {
+@media (max-width: 1000px) {
+  .imgs {
+    margin-top: 15%;
+  }
+}
 
-    body{
-        display: block;
-        margin-top: -4%;
-        background-position-y: -76px;
+@media (max-width: 425px) {
+  html,
+  body {
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid red;
+    overflow-x: hidden;
+  }
 
-    }
+  .logo img {
+    width: 82%;
+    margin-top: 6%;
+  }
 
-    .imgs{
-        margin-top: -5%;
-    }
+ .image{
+  overflow-y: hidden;
+  overflow-x: auto;
+ }
 
-    .barra{
-        display:none;
-    }
+  .imgs {
+    /* border: 2px solid yellow; */
+    height: 100vh;
+    width: 950px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+  }
 
-    p{
-        position: absolute;
-        margin-top: 0;
-        margin-left: -75vh;
-        font-size: 10px;
-        color: rgba(255, 255, 255, 0.864);
-    }
+  img {
+    position: absolute;
+  }
 
-    .titulo{
-        display: none;
-    }
-
+  p{
+    position: absolute;
+    top:0;
+    left: 25% ;
+    color:  black;
+    z-index: 100;
+   }
 }
