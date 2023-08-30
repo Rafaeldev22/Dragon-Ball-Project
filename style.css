@@ -244,7 +244,7 @@ p {
     width: 100vw;
     height: 99vh;
     /* border: 2px solid red; */
-    overflow-x: hidden;
+    overflow-y: none;
   }
 
   .logo img {
@@ -253,7 +253,7 @@ p {
   }
 
  .image{
-  overflow-y: hidden;
+  overflow-y: none;
   overflow-x: auto;
  }
 
