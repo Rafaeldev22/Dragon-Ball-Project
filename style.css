@@ -148,9 +148,9 @@ p {
   html,
   body {
     width: 100vw;
-    height: 100vh;
+    height: 99vh;
     /* border: 2px solid red; */
-    overflow-x: hidden;
+    overflow-x: none;
   }
 
   .logo img {
@@ -198,7 +198,7 @@ p {
   html,
   body {
     width: 100vw;
-    height: 100vh;
+    height: 99vh;
     /* border: 2px solid red; */
     overflow-x: hidden;
   }
@@ -242,7 +242,7 @@ p {
   html,
   body {
     width: 100vw;
-    height: 100vh;
+    height: 99vh;
     /* border: 2px solid red; */
     overflow-x: hidden;
   }
