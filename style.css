@@ -226,9 +226,10 @@ p {
 
   p {
     border: 2px solid red;
-    top: 0;
-    left: 25%;
-    color: black;
+    margin: 0;
+    /* top: 0;
+    left: 25%; */
+    color: white;
     z-index: 100;
   }
 
