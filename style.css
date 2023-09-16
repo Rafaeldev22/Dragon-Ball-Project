@@ -192,15 +192,15 @@ p {
 @media (max-width: 425px) {
   html,
   body {
-    /* width: 100vw;
-    height: 99vh; */
+    /* width: 100vw; */
+    height:100%;
     border: 3px solid green;
     overflow-x: hidden;
   }
 
   .logo img {
     width: 89%;
-    margin-top: 40%;
+    margin-top: 20%;
   }
 
   .image {
@@ -215,7 +215,7 @@ p {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 80%;
+    margin-top: 50%;
     margin-left: -1%;
   }
 
@@ -229,6 +229,12 @@ p {
     left: 25%;
     color: black;
     z-index: 100;
+  }
+
+  .barra{
+    border: 2px solid red;
+    width: 100%;
+    height: 10%;
   }
 }
 
