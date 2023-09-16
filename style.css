@@ -194,7 +194,7 @@ p {
   body {
     /* width: 100vw;
     height: 99vh; */
-    /* border: 2px solid red; */
+    border: 3px solid green;
     overflow-x: hidden;
   }
 
@@ -209,7 +209,7 @@ p {
   }
 
   .imgs {
-    border: 2px solid yellow;
+    border: 2px solid green;
     height: 60vh;
     width: 1100px;
     position: relative;
