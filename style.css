@@ -241,30 +241,32 @@ p {
 @media (max-width: 320px) {
   html,
   body {
-    width: 100vw;
-    height: 99vh;
+
+
     /* border: 2px solid red; */
     overflow-y: none;
   }
 
   .logo img {
     width: 89%;
-    margin-top: 1%;
+    margin-top: 40%;
   }
 
  .image{
   overflow-y: none;
   overflow-x: auto;
+  /* border: 3px solid red; */
+  /* height: 100vh; */
  }
 
   .imgs {
     /* border: 2px solid yellow; */
-    height: 100vh;
+    height: 60vh;
     width: 1100px;
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 12%;
+    margin-top: 80%;
     margin-left: -1%;
   }
 
